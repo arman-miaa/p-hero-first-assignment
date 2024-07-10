@@ -297,6 +297,10 @@ margin-bottom: 48px;
     width:96%;
     height: 77%;
     border: 2px solid green;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
 
 }
 
@@ -305,4 +309,93 @@ margin-bottom: 48px;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 
+}
+
+/* current target style here */
+.current-target-container{
+    width: 100%;
+    /* height: 463px; */
+    border: 2px solid yellowgreen;
+    margin-top: 140px;
+}
+
+.current-section-heading-des-text{
+    border: 2px solid blue;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.current-section-heading-des-text h3{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+margin-bottom: 15px;
+}
+
+.current-section-heading-des-text p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom: 48px;
+}
+.current-target-card-container{
+    display: flex;
+    gap: 20px;
+}
+
+.current-target-first-card{
+    border: 2px solid orange;
+    padding: 40px;
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+
+/* multiple style */
+.current-target-card-title{
+    margin-top:20px;
+    margin-bottom:20px;
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+}
+.current-target-card-des{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+opacity: 0.7;
+margin-bottom:22px;
+
+}
+
+.current-target-card-link{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+
+}
+.current-target-second-card{
+    border: 2px solid blue;
+    padding: 40px;
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.current-target-last-card{
+    border: 2px solid orange;
+    padding: 40px;
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
 }
