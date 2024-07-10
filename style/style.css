@@ -30,6 +30,16 @@ border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(6, 0, 0, 0) 100%);
 }
 
+.development-inside-content-second{
+    width: 85%;
+margin: 0 auto;
+margin-top: 48px;
+display: flex;
+padding: 48px;
+border-radius: 16px;
+background: linear-gradient(90.00deg,rgba(6, 0, 0, 0), rgb(255, 255, 255) 100%);
+}
+
 .learn-more-button{
     margin-top: 32px;
     padding: 12px 20px 12px 20px;
@@ -287,6 +297,7 @@ margin-bottom: 48px;
     padding: 40px;
     border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
+flex: 1 1 0%;
 }
 
 
@@ -322,12 +333,14 @@ text-align: left;
 padding: 40px;
 border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
+flex: 1 1 0%;
 }
 
 .current-target-last-card{
 padding: 40px;
 border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
+flex: 1 1 0%;
 }
 
 /* next target style here */
