@@ -470,3 +470,34 @@ padding: 17px 20px;
 
 /* background: rgb(255, 255, 255); */
 }
+
+
+/* footer section style here */
+.footer-contaniner-box{
+    max-width: 1440px;
+    height: 100px;
+    margin-top: 75px;
+    border-radius: 16px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content-section{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content-section h5{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+
+.footer-icons-content img{
+    margin-left: 10px;
+}
