@@ -389,3 +389,84 @@ background: rgba(0, 76, 232, 0.05);
 
 background: rgba(255, 223, 0, 0.05);
 }
+
+/* next target style here */
+.next-target-container{
+    width: 100%;
+    height: 870px;
+    border: 2px solid red;
+    margin-top: 111px;
+}
+
+/* supprt section style here */
+.support-section-container{
+    width: 100%;
+    height: 300px;
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.supprot-section-content{
+    width:1044px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(75, 74, 74, 0.188);
+}
+
+.suppor-title-des-text{
+    text-align: center;
+    
+}
+.suppor-title-des-text h3{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+}
+
+.suppor-title-des-text p{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+margin-bottom:40px;
+}
+
+.suppot-input-button-content input[type="email"]{
+    box-sizing: border-box;
+    width: 548px;
+height: 57px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+color: rgb(255, 255, 255);
+
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+
+}
+
+.suppot-input-button-content button{
+    /* color: rgb(255, 255, 255); */
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px;
+
+/* background: rgb(255, 255, 255); */
+}
